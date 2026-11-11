@@ -1,0 +1,13 @@
+{
+  "id": "CombatReconnect",
+  "name": "Combat Reconnect",
+  "author": "Ziheng Zhou",
+  "description": "Rejoins combat by deterministically replaying the current turn on host and client.",
+  "version": "0.6.32",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [
+    { "id": "STS2-RitsuLib" }
+  ],
+  "affects_gameplay": true
+}

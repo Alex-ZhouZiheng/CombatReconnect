@@ -1,0 +1,11 @@
+id	name	required_result
+baseline	基准联机	双方正常完成一回合且无状态差异
+rewind	单纯回滚	双方提交相同回放 hash 和计数器
+reconnect	单纯重连	客户端恢复后第一张牌不触发不同步
+rewind_then_reconnect	回滚后重连	回滚提交后客户端可重新加入并继续出牌
+reconnect_then_rewind	重连后回滚	重连提交后双方可完成一次投票回滚
+rewind_abort_recovery	回滚失败恢复	双方恢复到事务前安全快照并可继续出牌
+dynamic_entities	动态单位	怪物数量、顺序、move、意图和宠物状态一致
+rng	随机状态	回放后双方后续随机结果一致
+pet_cooldown	宠物冷却	锚点、回放完成和失败恢复后的 cooldown 一致
+

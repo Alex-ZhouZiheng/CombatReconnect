@@ -1,0 +1,14 @@
+test-artifacts/
+bin/
+obj/
+package/
+*.pck
+*.zip
+*.dll
+*.pdb
+.DS_Store
+.vs/
+.vscode/
+*.user
+*.suo
+
